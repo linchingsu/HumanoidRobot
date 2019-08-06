@@ -1,0 +1,12 @@
+main.o: main.c
+main.o: config.h
+main.o: LPC214x.h
+main.o: I2CINT.h
+main.o: target.h
+main.o: UART.h
+main.o: C:\Keil\ARM\RV31\Inc\math.h
+main.o: IMU.h
+main.o: target.c
+main.o: C:\Keil\ARM\RV31\Inc\rt_sys.h
+main.o: C:\Keil\ARM\RV31\Inc\stdio.h
+main.o: I2CINT.c

@@ -1,0 +1,156 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: É Vision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: CHINGSZU LIN, Tokyo University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARM.DLL V5.14.0.0
+Dialog DLL:      DARMP.DLL V1.51
+Target DLL:      UL2ARM.DLL V1.74.5.0
+Dialog DLL:      TARMP.DLL V1.51
+ 
+<h2>Project:</h2>
+C:\Charlielin\0_Final Programming  notebook\20160204 experiment programming\2_ Feeling hurt of righ arm\Gold Brick 1.0.uvproj
+Project File Date:  01/20/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+UART.h(246): warning:  #223-D: function "strlen" declared implicitly
+        num=strlen(str);
+I2CINT.c(463): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+    I2C_WriteNByte(Adr752, 1, reg, str, 1);
+I2CINT.c(674): warning:  #1-D: last line of file ends without a newline
+        
+main.c(250): warning:  #61-D: integer operation result is out of range
+        PINSEL0=(PINSEL0 & ~(0x03<<30))| (0x03<<30);  //P0.15-AD1.5
+main.c(250): warning:  #61-D: integer operation result is out of range
+        PINSEL0=(PINSEL0 & ~(0x03<<30))| (0x03<<30);  //P0.15-AD1.5
+main.c(250): warning:  #68-D: integer conversion resulted in a change of sign
+        PINSEL0=(PINSEL0 & ~(0x03<<30))| (0x03<<30);  //P0.15-AD1.5
+main.c(1017): warning:  #223-D: function "atoi" declared implicitly
+        return(atoi(strx));
+main.c(1014): warning:  #177-D: variable "data" was declared but never referenced
+        int32 data; 
+main.c(1026): warning:  #223-D: function "atoi" declared implicitly
+        return(atoi(strx));
+main.c(1023): warning:  #177-D: variable "data" was declared but never referenced
+        int32 data; 
+main.c(1034): warning:  #223-D: function "atoi" declared implicitly
+        return(atoi(strx));
+main.c(1031): warning:  #177-D: variable "data" was declared but never referenced
+        int32 data; 
+main.c(1264): warning:  #9-D: nested comment is not allowed
+  /**********************************Test Robot ARM***********************************/
+main.c(1297): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+  UARTEX_SendStr(1,str);         
+main.c(1306): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+     UARTEX_SendStr(1,str);                     
+main.c(1330): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+     UARTEX_SendStr(1,str);                     
+main.c(1373): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+           UARTEX_SendStr(1,str);ClrStr(str);
+main.c(1373): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+           UARTEX_SendStr(1,str);ClrStr(str);
+main.c(1500): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+                UARTEX_SendStr(1,str);          
+main.c(1502): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+          UARTEX_SendStr(1,str); 
+main.c(1504): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+      UARTEX_SendStr(1,str); 
+main.c(1506): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+      UARTEX_SendStr(1,str); 
+main.c(1592): warning:  #223-D: function "abs" declared implicitly
+  if( abs(Speed5)>40 || abs(Speed6)>40  || abs(Speed7)>40  ||abs(Speed8)>40 )
+main.c(1603): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+     UARTEX_SendStr(1,str);
+main.c(1697): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+    UARTEX_SendStr(1,str);
+main.c(1705): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+    UARTEX_SendStr(1,str);
+main.c(1711): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+        UARTEX_SendStr(1,str);
+main.c(1764): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+    UARTEX_SendStr(1,str);
+main.c(1771): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+   UARTEX_SendStr(1,str);
+main.c(1777): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+  UARTEX_SendStr(1,str);
+main.c(1865): warning:  #223-D: function "abs" declared implicitly
+  if( abs(Speed5)>40 || abs(Speed6)>40  || abs(Speed7)>40 || abs(Speed8)>40 )
+main.c(1876): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+     UARTEX_SendStr(1,str);
+main.c(1097): warning:  #177-D: variable "key" was declared but never referenced
+    char key;           
+main.c(1098): warning:  #550-D: variable "rev_num" was set but never used
+        char rev_num;
+main.c(1100): warning:  #177-D: variable "num" was declared but never referenced
+        char num[32];
+main.c(1102): warning:  #177-D: variable "Speed1" was declared but never referenced
+        short Speed1;
+main.c(1103): warning:  #177-D: variable "Speed2" was declared but never referenced
+        short Speed2;
+main.c(1104): warning:  #177-D: variable "Speed3" was declared but never referenced
+        short Speed3;
+main.c(1105): warning:  #177-D: variable "Speed4" was declared but never referenced
+        short Speed4;
+main.c(1111): warning:  #177-D: variable "SAng" was declared but never referenced
+        short SAng;
+main.c(1112): warning:  #177-D: variable "SAng1" was declared but never referenced
+        short SAng1;
+main.c(1114): warning:  #177-D: variable "SAng3" was declared but never referenced
+        short SAng3;
+main.c(1115): warning:  #177-D: variable "SAng4" was declared but never referenced
+        short SAng4;
+main.c(1124): warning:  #177-D: variable "ID" was declared but never referenced
+        uint8 ID;
+main.c(1125): warning:  #177-D: variable "NewID" was declared but never referenced
+        uint8 NewID;
+main.c(1135): warning:  #177-D: variable "SitPt1" was declared but never referenced
+        int32  SitPt1;
+main.c(1136): warning:  #177-D: variable "SitPt2" was declared but never referenced
+        int32  SitPt2;
+main.c(1139): warning:  #177-D: variable "Em_Flag" was declared but never referenced
+        char Em_Flag=0;
+main.c(1140): warning:  #550-D: variable "KL_Flag" was set but never used
+        char KL_Flag=0;
+main.c(1141): warning:  #550-D: variable "KR_Flag" was set but never used
+        char KR_Flag=0;
+main.c(1143): warning:  #177-D: variable "Cmd_Flag" was declared but never referenced
+        char Cmd_Flag=0;
+main.c(1149): warning:  #177-D: variable "Ang" was declared but never referenced
+        int32  Ang[11];
+main.c(1154): warning:  #550-D: variable "int_flagR" was set but never used
+        char int_flagR;
+main.c(1157): warning:  #177-D: variable "ADC0" was declared but never referenced
+        int32 ADC0[8];
+main.c(1159): warning:  #177-D: variable "FilBuf" was declared but never referenced
+    int32 FilBuf[10];
+main.c(1160): warning:  #177-D: variable "FilBufP" was declared but never referenced
+        int32 FilBufP[10];
+main.c(1161): warning:  #177-D: variable "FilBuf_abs" was declared but never referenced
+        int32 FilBuf_abs[10];
+main.c(1162): warning:  #177-D: variable "FilBuf_absP" was declared but never referenced
+        int32 FilBuf_absP[10];   
+main.c(1163): warning:  #177-D: variable "FilBuf_Pabs" was declared but never referenced
+        int32 FilBuf_Pabs[10];
+main.c: 59 warnings, 0 errors
+linking...
+Program Size: Code=27160 RO-data=448 RW-data=76 ZI-data=1260  
+FromELF: creating hex file...
+".\Gold Brick 1.0" - 0 Error(s), 59 Warning(s).
+</pre>
+</body>
+</html>
